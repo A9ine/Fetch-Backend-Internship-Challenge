@@ -22,7 +22,8 @@ The Points Tracker API is a simple Flask application that allows you to manage a
         python3 -m venv venv
         ```
     - Activate the virtual environment:
-      - On Windows: `venv\Scripts\activate`
+      - On Windows: `venv\Scripts\activate` 
+      - or `. .\venv\Scripts\Activate` in powershell
       - On macOS and Linux: `source venv/bin/activate`
 
 2. **Install Dependencies**:

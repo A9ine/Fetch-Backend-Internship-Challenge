@@ -17,6 +17,10 @@ The Points Tracker API is a simple Flask application that allows you to manage a
       ```
       python -m venv venv
       ```
+    - or 
+        ```
+        python3 -m venv venv
+        ```
     - Activate the virtual environment:
       - On Windows: `venv\Scripts\activate`
       - On macOS and Linux: `source venv/bin/activate`
@@ -24,7 +28,7 @@ The Points Tracker API is a simple Flask application that allows you to manage a
 2. **Install Dependencies**:
     After activating the virtual environment, install the required packages:
     ```
-    pip install flask sqlite3
+    pip install flask
     ```
 
 3. **Setting Up the Database**:
@@ -61,4 +65,3 @@ All endpoints accept parameters in the form of `form-data`.
 3. **Get Balance**:
     - **URL**: `/balance`
     - **Method**: `GET`
-

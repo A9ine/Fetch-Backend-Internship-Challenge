@@ -1,0 +1,16 @@
+
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I chose Flask due to the lightweight nature, making it quick for me to set up the environment and develop the REST APIs especially for a coding challenge like this one. Python also offers more simplicity and readability over other higher-level languages. For the database I opted for SQLite as this coding challenge did not require an immense amount of data, and it does not require me to set up a separate server, also making it a lot easier to run my grader.
+ 2. What are the advantages and disadvantages of your solution?
+
+The main advantage of my solution lies in its simplicity and maintainability. I opted for a single table for my database design, and by doing this I've ensured a design that is straightforward, reducing the chances of data discrepancies and making it easier to debug. A single table also helps ensure consistent data integrity. Furthermore, my solution is designed with reliability in mind, through thorough consideration of error catching, which includes validation of input values and handling of database connection issues.
+
+However, the trade-off for this simplicity is potential performance concerns. As the data grows, iterating over the entire dataset can become time-consuming, especially when fetching the total points for each payer in the /spend and /balance endpoints. While this approach is fine for smaller datasets, for larger datasets, there would likely be a need to optimize the database design. 
+ 3. What has been a favorite school/personal project thus far? What about it that challenged you? 
+ 
+My favorite project to date is a web application I developed for my high school's Charity Trivia Night. Not only did this application effectively address the reoccurring complaints from contestants and organizers about scoring, but it also made the event much more interactive.
+ 
+The challenges this project posed were multifaceted. Firstly, as a junior in high school I have only had little experience with tools needed to build a full stack application, so I dedicated my entire summer on this application. I interviewed potential users, meticulously planned the application's architecture, and immersed myself in both backend and frontend tools. This was a steep learning curve, as it was my first time integrating multiple languages and tools into a unified program.
+ 
+Moreover, it was crucial that the application could efficiently handle multiple team inputs simultaneously, a requirement that was crucial for real-time scoring and leaderboards. Equally vital was the rigorous testing phase. Given that the application was set to be a cornerstone of a competitive charity event, any bugs or errors would not only jeopardize the event's revenue but also tarnish the integrity and reputation of the charity organization. I vividly remember the first Charity Trivia night where my program was utilized, my hearted pounded rapidly and the joy and relief that came with the final winners being announced.  This project was a testament to my commitment and passion for applying tech solutions to real-world challenges. This application is still being used to this day amassing a total of more than 400 users and raising more than $10,000.
